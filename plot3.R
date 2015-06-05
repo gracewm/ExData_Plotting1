@@ -26,7 +26,7 @@ powerData$Date <- as.Date(powerData$Date, format = "%d/%m/%Y")
 DateTime <- paste(powerData$Date, powerData$Time, sep=" ")
 powerData$DateTime <- as.POSIXct(DateTime)
 
-# Plot multiple line charts and save it as plot3.png.
+# Plot line chart and save it as plot3.png.
 png(filename = "plot3.png", width = 480, height = 480, bg ="white")
 par(mar = c(6,6,2,2))
 
