@@ -27,7 +27,7 @@ DateTime <- paste(powerData$Date, powerData$Time, sep=" ")
 powerData$DateTime <- as.POSIXct(DateTime)
 
 # Plot the data and save it as plot2.png file
-png(filename = "plot2.png", width = 480, height = 480, bg ="transparent")
+png(filename = "plot2.png", width = 480, height = 480, bg ="white")
 par(mar = c(6,6,2,2))
 
 plot(powerData$Global_active_power ~ powerData$DateTime,
