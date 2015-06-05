@@ -27,7 +27,7 @@
    powerData$DateTime <- as.POSIXct(DateTime)
 
 # Set up the layout, size and margin for plotting 4 charts
-    png(filename = "plot4.png", width = 480, height = 480, bg ="transparent")
+    png(filename = "plot4.png", width = 480, height = 480, bg ="white")
     par(mfrow= c(2,2), mar = c(6,5,3,1))
 
 # Chart 1
