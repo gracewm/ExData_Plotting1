@@ -27,7 +27,7 @@ DateTime <- paste(powerData$Date, powerData$Time, sep=" ")
 powerData$DateTime <- as.POSIXct(DateTime)
 
 # Plot histogram for Global_active_power, and save it as plot1.png file
-png(filename = "plot1.png", width = 480, height = 480, bg = "transparent")
+png(filename = "plot1.png", width = 480, height = 480, bg = "white")
 par(mar = c(6,6,6,2))
 
 hist(powerData$Global_active_power, col="red", main="Global Active Power", xlab="Global Active Power (kilowatts)")
