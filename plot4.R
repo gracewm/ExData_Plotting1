@@ -42,10 +42,11 @@
         plot(Sub_metering_1~DateTime, type ="l", ylab = "Energy sub metering", xlab="")
         lines(Sub_metering_2 ~ DateTime, col ="red")
         lines(Sub_metering_3 ~ DateTime, col="blue")})
-        legend("topright", col=c("black", "red", "blue"), legend = c("Sub_metering_1","Sub_metering_2", "Sub_metering_3"),  lty = 1, lwd =1)
+        legend("topright", col=c("black", "red", "blue"), legend = c("Sub_metering_1","Sub_metering_2", "Sub_metering_3"),  lty = 1, lwd = 1, bty = "n")
 
 # Chart 4
    plot(powerData$Global_reactive_power ~ powerData$DateTime, type ="l", ylab = "Global_reactive_power", xlab="datetime")
 		
 # Close the graphic device
 dev.off()
+# End(Not run)
