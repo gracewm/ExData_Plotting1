@@ -49,3 +49,4 @@
 		
 # Close the graphic device
 dev.off()
+# End(Not run)
