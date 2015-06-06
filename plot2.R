@@ -35,3 +35,4 @@ type ="l",  ylab = "Global Active Power (kilowatts)", xlab="")
 
 # close the graphic device
 dev.off( )
+# End(Not run)

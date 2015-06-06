@@ -34,3 +34,4 @@ hist(powerData$Global_active_power, col="red", main="Global Active Power", xlab=
 
 # Close graphice device
 dev.off()
+# End(Not run)
