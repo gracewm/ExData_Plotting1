@@ -39,7 +39,7 @@
 
 # Chart 3
     with(powerData, {
-        plot(Sub_metering_1~DateTime, type ="l", ylab = "Energy sub metering", xlab="")
+        plot(Sub_metering_1 ~ DateTime, type ="l", ylab = "Energy sub metering", xlab="")
         lines(Sub_metering_2 ~ DateTime, col ="red")
         lines(Sub_metering_3 ~ DateTime, col="blue")})
         legend("topright", col=c("black", "red", "blue"), legend = c("Sub_metering_1","Sub_metering_2", "Sub_metering_3"),  lty = 1, lwd =1)
