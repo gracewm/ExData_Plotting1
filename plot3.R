@@ -38,3 +38,4 @@ par(mar = c(6,6,2,2))
 
 # Close the graphic device
 dev.off()
+# End(Not run)
